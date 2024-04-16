@@ -24,6 +24,7 @@ int main(){
                 if(a[i] == b[j] && b[j] == c[k]){
                     d[i][j][k] = d[i-1][j-1][k-1] + 1;
                 }
+
                 else{
                     d[i][j][k] = max(max(d[i-1][j][k], d[i][j-1][k]), d[i][j][k-1]);
                 }
