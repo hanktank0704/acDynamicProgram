@@ -4,8 +4,8 @@ int n;
 int a[1500001][2];
 int d[1500001];  //max money using i number 
 int main(){
-    // freopen("input.txt", "r", stdin);
-    // freopen("output.txt", "w", stdout);
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
     cin >> n;
     for(int i=1; i<=n; i++){
         cin >> a[i][0] >> a[i][1];
